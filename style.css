@@ -1,0 +1,82 @@
+/*--Common Rules--*/
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*--Rules first half--*/
+
+
+.firsthalf{
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+}
+
+.header-1 {
+    background-color: fuchsia;
+    height: 20%;
+    margin-bottom: 2%;
+}
+
+.section-1 {
+    background-color: orange;
+    height: 70%;
+    margin-bottom: 2%;
+}
+
+/*--Rules second half--*/
+
+.secondhalf{
+    width: 80%;
+    margin: 0 auto;
+    background-color: blue;
+    height: 500px;
+}
+
+.secondhalf::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.section-2 {
+    background-color:lightblue;
+    height: 10%;
+    margin-bottom: 20px;
+}
+
+.sidebar {
+    background-color: lightblue;
+    height: 80%;
+    float: left;
+    width: 20%;
+}
+    
+
+.main-section-2 {
+
+    background-color: lightblue;
+    height: 80%;
+    float: left;
+    width: 50%;
+    margin: 0 5%;
+}
+
+.aside {
+
+    background-color: lightblue;
+    height: 80%;
+    float: right;
+    width: 20%;
+}
+
+/*--Regole Footer--*/
+
+footer {
+    width: 80%;
+    margin: auto;
+    background-color: fuchsia;
+    height: 50px;
+}
